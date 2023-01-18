@@ -1,0 +1,57 @@
+                                                                            #ASSIGNMENT 5
+# SOLUTION 1
+marks=int(input("enter your marks please"))
+if(marks<25):
+    print("F grade")
+if(marks>25 and marks<45):
+    print("E grade")
+if(marks>45 and marks<50):
+    print("D grade")
+if(marks>50 and marks<60):
+    print("C grade")
+if(marks>60 and marks<80):
+    print("B grade")
+if(marks>80):
+    print("A grade")
+    
+    
+#SOLUTION 2
+year = int(input("enter a year "))
+if (year%4==0):
+    print("leap year")
+elif(year%100==0 and year%400==0):
+    print("leap year")
+else:
+    print("not a leap year")
+    
+
+#SOLUTION 3
+import random
+n=1
+while(n<=10):
+    a = (random.randrange(0, 10))
+    b = (random.randrange(0, 10))
+    print("a is", a)
+    print("b is", b)
+
+    print('QUESTION n:a*b is')
+    answer = int(input())
+
+    if (answer == a * b):
+        print('correct answer')
+
+    else:
+        print('incorrect answer correct answer is ', a*b)
+
+n = n + 1
+
+
+#solution 4
+
+
+
+
+    
+    
+    
+    
